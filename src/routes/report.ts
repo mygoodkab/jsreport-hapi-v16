@@ -58,10 +58,7 @@ module.exports = [
 
                 request.post({ url: 'http://localhost:5488/api/report', form: body })
                     .on('response', (res) => {
-                    
                             reply(res);
-                        
-
                     });
 
 
