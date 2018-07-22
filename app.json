@@ -1,0 +1,8 @@
+{
+"apps" : [{
+"name" : "onestop-api-report",
+"script" : "./dist/index.js",
+"watch" : true,
+"ignore_watch" : ["node_modules", "./dist/upload"]
+}]
+}
